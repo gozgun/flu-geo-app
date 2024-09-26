@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../assets/css/TabComponent.css'; // Ensure this CSS file styles the component
+import '../assets/css/TabComponent.css';
 
 interface DataItem {
   label: string;

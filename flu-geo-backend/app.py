@@ -1,10 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import pandas as pd
-from datetime import datetime
 import json
-import requests
-from bs4 import BeautifulSoup
 from get_news import get_google_news
 
 app = Flask(__name__)
