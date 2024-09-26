@@ -28,7 +28,7 @@ A heatmap illustrates the intensity and frequency of bird flu cases. The map is 
 The news section displays six relevant articles on "bird flu Switzerland" in English. Each article includes the title, source, date, a brief summary, and a link to the full article. News is retrieved from Google News.
 
 ## Date Adjustments(*)
-The original dataset includes timestamps between the years 5970 and 7437. Due to limitations in Unicode time representation ( [the 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem) ), the original dataset was modified to fit within a range of 2015–2017. The mapping is as follows:
+The original dataset includes timestamps between the years 5970 and 7437. Due to limitations in Unix time representation ( [Year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem) ), the original dataset was modified to fit within a range of 2015–2017. The mapping is as follows:
 - Years starting with 5XXX → 2015
 - Years starting with 6XXX → 2016
 - Years starting with 7XXX → 2017
