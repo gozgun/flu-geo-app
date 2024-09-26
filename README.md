@@ -8,11 +8,10 @@ This project visualizes bird flu data on a map of Switzerland and surrounding re
 
 ### Filters
 Users can filter data by:
-- Date range (2015 - 2017*)
+- Date range (mm/dd/yyyy)
 - Swiss cantons (26 available)
 - Virus types (H5N1, H5N2, H7N2, H7N8)
-- Bird species ('Barn Swallow', 'Blackbird', 'Chicken', 'Common Chaffinch', 'Duck', 'Eurasian Blue Tit', 
-'Eurasian Magpie', 'European Robin', 'Goose', 'Great Tit', 'House Sparrow', 'Turkey')
+- Bird species (Barn Swallow, Blackbird, Chicken, Common Chaffinch, Duck, Eurasian Blue Tit, Eurasian Magpie, European Robin, Goose, Great Tit, House Sparrow, Turkey)
 - Provenance type (Wild, Livestock)
 
 Multiple values can be selected for each field, and filters can be reset to show all data by default.
@@ -27,19 +26,19 @@ A heatmap illustrates the intensity and frequency of bird flu cases. The map is 
 ### News
 The news section displays six relevant articles on "bird flu Switzerland" in English. Each article includes the title, source, date, a brief summary, and a link to the full article. News is retrieved from Google News.
 
-## Date Adjustments(*)
-The original dataset includes timestamps between the years 5970 and 7437. Due to limitations in Unix time representation ( [Year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem) ), the original dataset was modified to fit within a range of 2015–2017. The mapping is as follows:
-- Years starting with 5XXX → 2015
-- Years starting with 6XXX → 2016
-- Years starting with 7XXX → 2017
-
-These mapped values are saved in a new column, `new_timestamp`, and used throughout the application.
-
 ### Reusability
 The project divides functionality into components whcih can be reused for other map visualizations or filtering tasks. The **Flask backend** is adaptable to different datasets, making the filtering and API logic easy to repurpose. The **Leaflet map** can be reused with other geospatial data, and the news retrieval system can be applied to different topics. Additionally, the data structures for species, virus types, and regions are designed to be extended without major changes.
 
 ### Interoperability
 The **Flask API** follows HTTP standards, making it easy for external systems to consume the data. News is retrieved dynamically using Google News' API, enabling third-party content interaction. Future CSV export functionality will allow data sharing with external tools like Excel.
+
+#### NOTE: Date Adjustments
+The original dataset includes timestamps between the years 5970 and 7437. Due to limitations in Unix time representation ( [Year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem) ), the original dataset was modified to fit within a range of 01.01.2015 – 31.12.2017. The mapping is as follows:
+- Years starting with 5XXX → 2015
+- Years starting with 6XXX → 2016
+- Years starting with 7XXX → 2017
+
+These mapped values are saved in a new column, `new_timestamp`, and used throughout the application.
 
 ## Getting Started
 
@@ -66,7 +65,7 @@ git clone https://github.com/gozgun/flu-geo-app.git
     ```bash
     python3 app.py
     ```
-The API will be available at `http://127.0.0.1:5000/`.
+
 
 ### Frontend Installation
 
