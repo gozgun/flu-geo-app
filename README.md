@@ -35,6 +35,12 @@ The original dataset includes timestamps between the years 5970 and 7437. Due to
 
 These mapped values are saved in a new column, `new_timestamp`, and used throughout the application.
 
+### Reusability
+The project divides functionality into components whcih can be reused for other map visualizations or filtering tasks. The **Flask backend** is adaptable to different datasets, making the filtering and API logic easy to repurpose. The **Leaflet map** can be reused with other geospatial data, and the news retrieval system can be applied to different topics. Additionally, the data structures for species, virus types, and regions are designed to be extended without major changes.
+
+### Interoperability
+The **Flask API** follows HTTP standards, making it easy for external systems to consume the data. News is retrieved dynamically using Google News' API, enabling third-party content interaction. Future CSV export functionality will allow data sharing with external tools like Excel.
+
 ## Getting Started
 
 Clone the repository
