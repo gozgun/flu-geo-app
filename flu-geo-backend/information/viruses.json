@@ -1,0 +1,22 @@
+[
+    {
+        "label": "H5N1",
+        "value": "H5N1",
+        "description": "Commonly known as Avian Influenza H5N1. A severe bird flu virus that can occasionally infect humans. It's a major concern for both animal and public health, requiring careful monitoring and swift action when detected."
+    },
+    {
+        "label": "H5N2",
+        "value": "H5N2",
+        "description": "Commonly known as Avian Influenza H5N2. Another bird flu virus, generally less dangerous to humans than H5N1. It can still cause significant problems for poultry farms and wild bird populations."
+    },
+    {
+        "label": "H7N2",
+        "value": "H7N2",
+        "description": "Commonly known as Avian Influenza H7N2. A milder form of bird flu. While it mainly affects birds, it can sometimes spread to humans who work closely with infected poultry, but usually causes only mild symptoms."
+    },
+    {
+        "label": "H7N8",
+        "value": "H7N8",
+        "description": "Commonly known as Avian Influenza H7N8. A less common bird flu virus. We're still learning about its effects, but it's important to monitor as part of our overall disease surveillance efforts."
+    }
+]

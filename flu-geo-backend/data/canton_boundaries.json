@@ -1,0 +1,158 @@
+{
+    "Graubünden": {
+        "min_lat": 46.1691495,
+        "max_lat": 47.0651462,
+        "min_lon": 8.6510673,
+        "max_lon": 10.4921713
+    },
+    "Bern": {
+        "min_lat": 46.2385,
+        "max_lat": 47.4115,
+        "min_lon": 6.7431,
+        "max_lon": 8.6258
+    },
+    "Valais": {
+        "min_lat": 45.8581851,
+        "max_lat": 46.6540472,
+        "min_lon": 6.7705792,
+        "max_lon": 8.4785187
+    },
+    "Vaud": {
+        "min_lat": 46.1298,
+        "max_lat": 47.0121,
+        "min_lon": 6.9281963,
+        "max_lon": 7.0934092
+    },
+    "Ticino": {
+        "min_lat": 45.8179585,
+        "max_lat": 46.6324839,
+        "min_lon": 8.38219,
+        "max_lon": 9.1596852
+    },
+    "St. Gallen": {
+        "min_lat": 47.5081402,
+        "max_lat": 47.512003,
+        "min_lon": 9.3534963,
+        "max_lon": 9.3591007
+    },
+    "Zürich": {
+        "min_lat": 47.1594356,
+        "max_lat": 47.6944697,
+        "min_lon": 8.3576934,
+        "max_lon": 8.984951
+    },
+    "Fribourg": {
+        "min_lat": 46.3864,
+        "max_lat": 47.0612,
+        "min_lon": 6.6348,
+        "max_lon": 7.5289
+    },
+    "Luzern": {
+        "min_lat": 46.7749892,
+        "max_lat": 47.2871936,
+        "min_lon": 7.8364197,
+        "max_lon": 8.5140623
+    },
+    "Aargau": {
+        "min_lat": 47.4075095,
+        "max_lat": 47.409019,
+        "min_lon": 8.4378999,
+        "max_lon": 8.4403717
+    },
+    "Uri": {
+        "min_lat": 46.5276141,
+        "max_lat": 46.9934069,
+        "min_lon": 8.3973631,
+        "max_lon": 8.9578097
+    },
+    "Thurgau": {
+        "min_lat": 47.4841432,
+        "max_lat": 47.5072504,
+        "min_lon": 9.4480925,
+        "max_lon": 9.4835464
+    },
+    "Schwyz": {
+        "min_lat": 46.8852832,
+        "max_lat": 47.2225628,
+        "min_lon": 8.3887515,
+        "max_lon": 9.004725
+    },
+    "Jura": {
+        "min_lat": 47.1504093,
+        "max_lat": 47.504468,
+        "min_lon": 6.8407303,
+        "max_lon": 7.5583459
+    },
+    "Neuchâtel": {
+        "min_lat": 46.8465929,
+        "max_lat": 47.1657412,
+        "min_lon": 6.4326898,
+        "max_lon": 7.0876538
+    },
+    "Solothurn": {
+        "min_lat": 47.1525587,
+        "max_lat": 47.1667302,
+        "min_lon": 7.6744284,
+        "max_lon": 7.7008042
+    },
+    "Glarus": {
+        "min_lat": 46.7964669,
+        "max_lat": 47.1739873,
+        "min_lon": 8.8712361,
+        "max_lon": 9.2525855
+    },
+    "Basel-Landschaft": {
+        "min_lat": 47.4138421,
+        "max_lat": 47.4417847,
+        "min_lon": 7.3251923,
+        "max_lon": 7.3830171
+    },
+    "Obwalden": {
+        "min_lat": 46.7634203,
+        "max_lat": 46.8745881,
+        "min_lon": 8.361313,
+        "max_lon": 8.5068861
+    },
+    "Nidwalden": {
+        "min_lat": 46.771514,
+        "max_lat": 47.0199538,
+        "min_lon": 8.2181022,
+        "max_lon": 8.5749545
+    },
+    "Genève": {
+        "min_lat": 46.3405657,
+        "max_lat": 46.3513263,
+        "min_lon": 6.1667855,
+        "max_lon": 6.184428
+    },
+    "Schaffhausen": {
+        "min_lat": 47.5523608,
+        "max_lat": 47.6061569,
+        "min_lon": 8.5335635,
+        "max_lon": 8.5957278
+    },
+    "Appenzell Ausserrhoden": {
+        "min_lat": 47.2470218,
+        "max_lat": 47.4690406,
+        "min_lon": 9.1910984,
+        "max_lon": 9.6309674
+    },
+    "Zug": {
+        "min_lat": 47.0810303,
+        "max_lat": 47.2483746,
+        "min_lon": 8.3948456,
+        "max_lon": 8.7011687
+    },
+    "Appenzell Innerrhoden": {
+        "min_lat": 47.4431656,
+        "max_lat": 47.4436904,
+        "min_lon": 9.612101,
+        "max_lon": 9.6132776
+    },
+    "Basel-Stadt": {
+        "min_lat": 47.5192972,
+        "max_lat": 47.6009181,
+        "min_lon": 7.5546595,
+        "max_lon": 7.6938017
+    }
+}

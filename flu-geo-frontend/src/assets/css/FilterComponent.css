@@ -1,0 +1,80 @@
+.filter-box {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Ensure the background is white for clarity */
+}
+
+.filter-box h2 {
+  margin-bottom: 15px;
+  color: #1f0746; /* Align with the coherent color scheme */
+}
+
+.filter-section {
+  margin-bottom: 15px;
+  display: flex; /* Align elements horizontally */
+  gap: 10px; /* Add spacing between the two date fields */
+}
+
+.filter-item {
+  flex: 1; /* Each item takes up equal space */
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555; /* Darker label color for better readability */
+}
+
+.date-input {
+  width: 100%; /* Full width for input */
+  padding: 10px; /* Increased padding for a more comfortable touch target */
+  margin-bottom: 10px;
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in the width */
+  transition: border-color 0.3s ease; /* Smooth transition for focus state */
+}
+
+.date-input:focus {
+  border-color: #1f0746; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.checkbox-group {
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ddd; /* Updated to match input styling */
+  padding: 5px;
+  border-radius: 5px; /* Rounded corners for consistency */
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Slightly darker text for contrast */
+}
+.button-group {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Spread buttons evenly */
+  margin-top: 20px;
+}
+
+.button-group button {
+  flex: 1; 
+  padding: 10px 15px;
+  background-color: #1f0746; 
+  color: #fff; /* White text for contrast */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+.button-group button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}

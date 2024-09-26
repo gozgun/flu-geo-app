@@ -1,0 +1,12 @@
+[
+    {
+        "label": "Livestock",
+        "value": "Livestock",
+        "description": "Farm animals raised for food production. In disease contexts, livestock can be vulnerable to outbreaks that impact food security and the economy. They can also sometimes spread diseases to humans, making monitoring crucial."
+    },
+    {
+        "label": "Wild",
+        "value": "Wild",
+        "description": "Animals living in nature, not raised by humans. Wild animals can carry diseases that might spread to livestock or humans. Understanding and monitoring diseases in wildlife is key to preventing larger outbreaks."
+    }
+]

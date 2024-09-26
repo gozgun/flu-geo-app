@@ -1,0 +1,74 @@
+[
+    {
+        "label": "Barn Swallow",
+        "value": "Barn Swallow",
+        "image": "https://example.com/barnswallow.jpg",
+        "description": "A small, agile bird often seen near farms and open fields across Switzerland in summer. Known for its distinctive forked tail and blue-black coloring. Does not carry significant avian diseases."
+    },
+    {
+        "label": "Blackbird",
+        "value": "Blackbird",
+        "image": "https://example.com/blackbird.jpg",
+        "description": "A common garden bird found in gardens and woodlands throughout Switzerland. Males are all black, while females are brown with speckled breasts. Does not carry significant avian diseases."
+    },
+    {
+        "label": "Chicken",
+        "value": "Chicken",
+        "image": "https://example.com/chicken.jpg",
+        "description": "Domesticated fowl commonly kept for its eggs and meat. Chickens can be found on farms across Switzerland. Can carry avian diseases such as H5N1, H5N2, H7N2, and H7N8."
+    },
+    {
+        "label": "Common Chaffinch",
+        "value": "Common Chaffinch",
+        "image": "https://example.com/common-chaffinch.jpg",
+        "description": "A small passerine bird often seen in woodlands and gardens throughout Switzerland. Males have a bright pink chest and blue-grey wings. Does not carry significant avian diseases."
+    },
+    {
+        "label": "Duck",
+        "value": "Duck",
+        "image": "https://example.com/duck.jpg",
+        "description": "A waterfowl commonly seen in wetlands, lakes, and rivers in Switzerland. Ducks have a varied diet and are often observed in urban parks. Can carry avian diseases such as H5N1, H5N2, and H7N8."
+    },
+    {
+        "label": "Eurasian Blue Tit",
+        "value": "Eurasian Blue Tit",
+        "image": "https://example.com/eurasian-blue-tit.jpg",
+        "description": "A small, colorful bird found in woodlands and gardens throughout Switzerland. It has a blue cap, yellow underparts, and a distinctive black line through its eye. Does not carry significant avian diseases."
+    },
+    {
+        "label": "Eurasian Magpie",
+        "value": "Eurasian Magpie",
+        "image": "https://example.com/eurasian-magpie.jpg",
+        "description": "A highly intelligent bird known for its black-and-white plumage and long tail. Common in a variety of habitats, including urban and rural areas throughout Switzerland. Does not carry significant avian diseases."
+    },
+    {
+        "label": "European Robin",
+        "value": "European Robin",
+        "image": "https://example.com/european-robin.jpg",
+        "description": "A small bird with a bright orange-red breast, commonly found in gardens and woodlands throughout Switzerland. Does not carry significant avian diseases."
+    },
+    {
+        "label": "Goose",
+        "value": "Goose",
+        "image": "https://example.com/goose.jpg",
+        "description": "Large waterfowl typically seen in wetlands, lakes, and fields in Switzerland. Geese are migratory and can be found in both rural and urban areas. Does not carry significant avian diseases."
+    },
+    {
+        "label": "Great Tit",
+        "value": "Great Tit",
+        "image": "https://example.com/great-tit.jpg",
+        "description": "A robust bird with a black head and white cheeks, commonly found in forests, parks, and gardens throughout Switzerland. Does not carry significant avian diseases."
+    },
+    {
+        "label": "House Sparrow",
+        "value": "House Sparrow",
+        "image": "https://example.com/house-sparrow.jpg",
+        "description": "A small bird commonly found in urban and rural areas throughout Switzerland. Males have a distinctive chestnut-colored back and black throat. Does not carry significant avian diseases."
+    },
+    {
+        "label": "Turkey",
+        "value": "Turkey",
+        "image": "https://example.com/turkey.jpg",
+        "description": "Large domesticated bird often seen on farms in Switzerland. Native to North America but commonly kept in rural areas. Does not carry significant avian diseases."
+    }
+]
